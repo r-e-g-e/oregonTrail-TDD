@@ -1,0 +1,15 @@
+{
+  "name": "oregonTrail-TDD",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "scripts": {
+    "test":"NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch":"NODE_OPTIONS=--experimental-vm-modules jest --watch"
+  }
+}
